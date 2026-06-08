@@ -1,0 +1,127 @@
+@import "tailwindcss";
+@source "../../**/*.php";
+
+:root {
+  --surface: #fcf9f5;
+  --surface-dim: #dcdad6;
+  --surface-bright: #fcf9f5;
+  --surface-container-lowest: #ffffff;
+  --surface-container-low: #f6f3ef;
+  --surface-container: #f0ede9;
+  --surface-container-high: #eae8e4;
+  --surface-container-highest: #e5e2de;
+  --on-surface: #1c1c1a;
+  --on-surface-variant: #4d4635;
+  --inverse-surface: #31302e;
+  --inverse-on-surface: #f3f0ec;
+  --outline: #7f7663;
+  --outline-variant: #d0c5af;
+  --primary: #735c00;
+  --primary-container: #d4af37;
+  --primary-fixed-dim: #e9c349;
+  --secondary: #5f5e5e;
+}
+
+@theme {
+  --font-sans: "Geist", sans-serif;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    background: var(--surface);
+    color: var(--on-surface);
+    font-family: var(--font-sans);
+  }
+}
+
+@layer components {
+  .site-shell {
+    @apply mx-auto w-full max-w-[1440px] px-6 md:px-10 xl:px-20;
+  }
+
+  .nav-link {
+    @apply border-b border-transparent pb-1 text-xs font-semibold uppercase tracking-[0.24em] transition-colors duration-300;
+    color: var(--on-surface-variant);
+  }
+
+  .nav-link:hover,
+  .nav-link:focus-visible {
+    color: var(--primary);
+  }
+
+  .nav-link-active {
+    border-color: var(--primary);
+    color: var(--primary);
+  }
+
+  .button-primary {
+    @apply inline-flex items-center justify-center rounded-md px-6 py-3 text-xs font-semibold uppercase tracking-[0.24em] transition-colors duration-300;
+    background: var(--primary-container);
+    color: #ffffff;
+  }
+
+  .button-primary:hover,
+  .button-primary:focus-visible {
+    background: var(--primary-fixed-dim);
+  }
+
+  .button-secondary {
+    @apply inline-flex items-center justify-center rounded-md border px-6 py-3 text-xs font-semibold uppercase tracking-[0.24em] transition-colors duration-300;
+    border-color: var(--outline);
+    color: var(--on-surface);
+  }
+
+  .button-secondary:hover,
+  .button-secondary:focus-visible {
+    border-color: var(--primary-container);
+    color: var(--primary);
+  }
+
+  .section-tag {
+    @apply mb-4 block text-xs font-semibold uppercase tracking-[0.28em];
+    color: var(--primary);
+  }
+
+  .section-title {
+    @apply text-4xl font-semibold tracking-[-0.03em] md:text-5xl xl:text-6xl;
+  }
+
+  .section-heading {
+    @apply text-3xl font-medium tracking-[-0.02em] md:text-4xl;
+  }
+
+  .surface-card {
+    @apply rounded-xl border bg-white;
+    border-color: color-mix(in srgb, var(--outline-variant) 70%, transparent);
+    background: var(--surface-container-lowest);
+    box-shadow: 0 18px 45px rgba(212, 175, 55, 0.05);
+  }
+
+  .media-frame {
+    @apply overflow-hidden rounded-xl border;
+    border-color: color-mix(in srgb, var(--outline-variant) 70%, transparent);
+    background:
+      radial-gradient(circle at top, rgba(212, 175, 55, 0.14), transparent 48%),
+      linear-gradient(135deg, var(--surface-container-highest), var(--surface-container-low));
+  }
+
+  .line-input {
+    @apply w-full border-0 border-b bg-transparent px-0 py-3 text-base outline-none transition-colors duration-300;
+    border-color: var(--outline-variant);
+    color: var(--on-surface);
+  }
+
+  .line-input::placeholder {
+    color: color-mix(in srgb, var(--on-surface-variant) 74%, white);
+  }
+
+  .line-input:focus {
+    border-color: var(--primary-container);
+    box-shadow: none;
+  }
+}
+

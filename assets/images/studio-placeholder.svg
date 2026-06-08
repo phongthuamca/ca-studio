@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1000" fill="none">
+  <rect width="1600" height="1000" fill="#F0EDE9"/>
+  <rect x="80" y="80" width="1440" height="840" rx="32" fill="#FCF9F5" stroke="#D0C5AF" stroke-width="8"/>
+  <rect x="180" y="690" width="1240" height="110" rx="24" fill="#E5E2DE"/>
+  <rect x="220" y="280" width="1160" height="300" rx="20" fill="#EAE8E4"/>
+  <rect x="250" y="720" width="160" height="50" rx="12" fill="#D4AF37" fill-opacity=".28"/>
+  <rect x="460" y="720" width="160" height="50" rx="12" fill="#D4AF37" fill-opacity=".18"/>
+  <rect x="670" y="720" width="160" height="50" rx="12" fill="#D4AF37" fill-opacity=".14"/>
+  <rect x="880" y="720" width="160" height="50" rx="12" fill="#D4AF37" fill-opacity=".22"/>
+  <rect x="1090" y="720" width="160" height="50" rx="12" fill="#D4AF37" fill-opacity=".12"/>
+  <path d="M440 520c76-84 134-126 174-126 53 0 87 76 129 76 31 0 65-32 102-96 57 123 121 184 192 184 76 0 156-50 240-150" stroke="#735C00" stroke-opacity=".28" stroke-width="18" stroke-linecap="round"/>
+  <text x="800" y="180" text-anchor="middle" fill="#735C00" font-family="Arial, sans-serif" font-size="42" font-weight="700" letter-spacing="8">REPLACE IMAGE</text>
+</svg>
+

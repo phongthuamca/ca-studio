@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 1200" fill="none">
+  <rect width="900" height="1200" fill="#F0EDE9"/>
+  <rect x="70" y="70" width="760" height="1060" rx="30" fill="#FCF9F5" stroke="#D0C5AF" stroke-width="8"/>
+  <circle cx="450" cy="420" r="150" fill="#E5E2DE"/>
+  <path d="M250 930c40-170 128-255 264-255 138 0 226 85 266 255" fill="#EAE8E4"/>
+  <circle cx="450" cy="420" r="94" stroke="#735C00" stroke-opacity=".3" stroke-width="16"/>
+  <text x="450" y="140" text-anchor="middle" fill="#735C00" font-family="Arial, sans-serif" font-size="36" font-weight="700" letter-spacing="6">REPLACE PORTRAIT</text>
+</svg>
+

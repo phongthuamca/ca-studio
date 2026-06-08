@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" fill="none">
+  <rect width="1000" height="1000" fill="#F0EDE9"/>
+  <rect x="70" y="70" width="860" height="860" rx="30" fill="#FCF9F5" stroke="#D0C5AF" stroke-width="8"/>
+  <rect x="160" y="160" width="680" height="680" rx="18" fill="#E5E2DE"/>
+  <path d="M250 610 390 460l130 110 180-240" stroke="#735C00" stroke-opacity=".32" stroke-width="24" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="360" cy="310" r="56" fill="#D4AF37" fill-opacity=".3"/>
+  <text x="500" y="900" text-anchor="middle" fill="#735C00" font-family="Arial, sans-serif" font-size="32" font-weight="700" letter-spacing="6">REPLACE COVER</text>
+</svg>
+
