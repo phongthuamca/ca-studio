@@ -4,7 +4,7 @@ declare(strict_types=1);
 $profiles = [
     [
         'role' => 'MEDIA / Founder',
-        'name' => 'Alex "Cá" Nguyen',
+        'name' => 'Thái Anh Dương',
         'description' => 'Người đồng hành cùng với Cá studio trong 10 năm với kinh nghiệm trong ngành media và âm nhạc. Định hình không gian âm thanh , hình ảnh giao thoa giữa truyền thống và hiện đại.',
         'cta' => 'Nghe tác phẩm',
         'slot' => 'artists-profile-1',

@@ -72,7 +72,7 @@ $plans2 = [
         ],
     ],
     [
-        'name' => 'BEAT CHUYÊN SÂU',
+        'name' => 'PHỐI KHÍ CHUYÊN SÂU',
         'description' => 'Thích hợp cho các sản phẩm phát hành trên mạng xã hội và nền tảng số.',
         'price' => '2.500.000₫',
         'unit' => '/bài',
@@ -85,7 +85,7 @@ $plans2 = [
         ],
     ],
     [
-        'name' => 'GÓI THU ÂM CHUYÊN NGHIỆP',
+        'name' => 'PHỐI KHÍ CHUYÊN NGHIỆP',
         'description' => 'Sản phẩm được thiết kế riêng , tối ưu từng cung bậc cảm xúc .',
         'price' => '5.000.000₫',
         'unit' => '/bài',
